@@ -1,0 +1,227 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+              body{
+                background-image: url(data:image/jpeg;base64,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);
+                background-repeat: no-repeat;
+                background-size: cover;
+              }
+              h5{
+                color: white;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+
+              }
+              .ps{
+                h1{
+                text-align: center;
+                color: white;
+              }
+              }
+              
+              .hero{
+                    display: flex;
+                    align-items: center; 
+                   justify-content: center;
+                   margin-top: 10%;
+                }
+                .img{
+                    max-width: 80%;
+                    max-height:80%;
+                  
+                    img{
+                      border-radius: 20%;
+                    }
+                }
+                .na{
+                    font-size: medium;
+                    padding-left: 20px;
+                    text-align: start;
+                    color: white;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
+                 
+                    margin-left: 10%;
+                }
+                .am{
+                  margin-top: 20%;
+                  text-align: center; 
+                 color: white;
+                }
+                td{
+                  color: white;
+                }
+                th{
+                  color: lawngreen;
+                }
+                .form-group{
+                  color: lawngreen;
+                }
+              h2{
+                color: white;
+              }
+              .ps{
+                    display: flex;
+                    align-items: center; 
+                   justify-content: center;
+                   
+                }
+                .vid{
+                    max-width: 80%;
+                    max-height:80%;
+                    text-shadow: 5px 5px 5px blanchedalmond,5px 5px 5px whitesmoke;
+                }
+                .con{
+                    font-size: medium;
+                    margin-right: 20%;
+                    text-align: start;
+                    color:chartreuse;
+                }
+                strong{
+                  color: white;
+                }
+                ul,li{
+                  background-attachment: fixed;
+                  position: fixed;
+                  background-color: white;
+                }
+                h4{
+                  color: chartreuse;
+                  font-size: larger;
+
+                }
+                h5{
+                  margin-left: 20px;
+                }
+      </style>
+      <script>
+        $("#fileRequest").click(function(){ /* code to download? */ });
+      </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                   <a class ="navbar-brand" href="#">Porfolio</a> 
+                </div>    
+             <ul class="nav navbar-nav">
+                   <li class="active"><a href="#Home">Home</a></li>
+                   <li> <a href="#About Me">About Me</a></li>
+                   <li> <a href="#Projects">Projects</a></li>
+                   <li> <a href="#Contact">Contact</a></li>
+             </ul>
+           </div>
+        </nav>
+        <h5>JAMMALAMADUGU LAKSHMI THIRUPATHAMMA</h5>
+        <section id="Home" class="hero">
+          <div class="img">
+            <img src="data:image/jpeg;base64,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">
+          </div>
+          <div class="na">
+            <h3>Hello, I'M</h3>
+          <h4><strong> J Lakshmi Thirupathamma</strong></h4>
+          <p>"A software engineer willing to do web designs with a good knowledge on web designing"</p>
+          <p>Hello! I am Jammalamadugu Lakshmi Thirupathamma, a passionate student focused on software development.</p>
+          <p> I have experience in HTML, CSS, JavaScript, and Bootstrap, and I am always eager to learn and take on new challenges.</p><br><br>
+          <h4>Self Intro:</h4>
+          <p>I'm Lakshmi Thirupathamma,from Ongole.currently pursuing btech 4 th year in <strong>Rise Krishna Sai Gandhi Group Of Institution</strong></p>
+          <p>in the stream of computer science engineering .</p>
+          <p>My hobbies are reading books ,listening music and dancing</p>
+          <p>My strength is iam self motivated person and a heard worker</p>
+          <p>My weakness is iam an emotional person and i am can't feel comfortable until i finish my work</p>
+          </div>
+      </section>
+        <section id="About Me" class="am">
+          <h1>About Me</h1>
+          <p>Hello! I am Jammalamadugu Lakshmi Thirupathamma, a passionate student focused on software development.</p>
+          <p> I have experience in HTML, CSS, JavaScript, and Bootstrap, and I am always eager to learn and take on new challenges.</p>
+          <h1>Education Details:</h1>
+          <div class="container">
+           
+            
+            <table class="table table-striped1">
+                <thead>
+                    <tr>
+                        <th>Education</th>
+                        <th>School/College</th>
+                        <th>precentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SSC</td>
+                        <td>GEMS High School</td>
+                        <td>95%</td>
+                    </tr>
+                    <tr>
+                        <td>InterMediate</td>
+                        <td>Sri Chaitanya Juniour College</td>
+                        <td>97%</td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech</td>
+                        <td>Rise Krishna Sai Gandhi Group Of Institution</td>
+                        <td>7.1%</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Download Resume:</h2>
+            <a href="files/luckyresume.pdf"><button class="btn"><i class="fa fa-download" value="Download!" ></i> Download</button></a>
+        </div>
+        </section><br><br><br><br><br><br><br><br><br><br>
+        <center>
+          <table>
+            <tr><h2>Projects</h2></tr>
+            <tr>
+              <section id="Projects" class="ps">
+                <div class="ps">
+                  <div class="vid">
+                    <video width="50%" height="60%"  controls>
+                      <source  src="p3.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="con">
+                    <p>This is my third project which i had done .My project name is <strong>'contains all the home, about, contact pages'.</strong></p>
+                    <p>The first thing i had done is i just created a registration page and ia had created a login page also which is used to go to the login successfully.</p>
+                  </div>
+                </div>
+              </section><br><br>
+              <section id="Projects" class="ps">
+                <div class="ps">
+                  <div class="vid">
+                    <video width="50%" height="60%"  controls>
+                      <source  src="p4.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="con">
+                    <p>This is my four th project which i had done .My project name is <strong>'Product showcase'.</strong></p>
+                    <p>The first thing i had done is i just created a registration page and ia had created a login page also which is used to go to the login successfully.</p>
+                  </div>
+                </div>
+              </section>
+    
+            </tr>
+          </table>
+        </center><br><br><br><br><br><br><br><br><br><br>
+        <section id="Contact" class="container mt-5 mb-5">
+          <center><h2>Contact</h2></center>
+          <form>
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </section>
+    </body>
+</html>

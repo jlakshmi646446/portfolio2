@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
+body{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgICAcICAgHBwcHBwoHBwcHCA8ICQcKFREWFhURExMYHSggGBolGxMfITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDysZFRkrLSsrKysrKzctLTcrLTc3NystKzctLSsrLSsrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIHA//EABYQAQEBAAAAAAAAAAAAAAAAAAARAf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgUE/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDp6Scd70ilAUQChQgijUUBmGFAIo0osGYo1FCDMEekEIMRRuKEGIo1FEgzFGooDMUagARFAA0BQigCSQCKBEFRFIRFFQImAFGolSiKNKESiIxRYlCaiiwAjUUIMqNRQgzFGgkKII1ERazBGki1kNRRFrIaAANBAAgEkkU4lhVEUVEcxQqVJFYykSsQRQlQQw5hiozFGiFZijSCswRsBWYo0oDEEb3AgwmgRWUQzuADWjUaxka0EUDSEAkkUnBhxUONYy1ihxI4rKKwtoimswQZhiKiSKoESARQMppAyigAhQMQNiIrOst6zuIrIa0M7i5rIa3BrLTIajKASQHGsZxrALWM41jSaisLWMrGsBxQ4VhVEkVRJFRJIEkRAkhUCgAKQAKQZ1lvWdFZ0adDKgaRrLWM6NOjWVZSQHGsZw4DWNM41jSacODE1jLTWMnFGiMKsogqHECokkIUCCCQJJCrRqSASQDWda1nUXBrJ0IoGkawuMjSGdaZSQHDgwg1hwHNXDSQWsY041jOHGhrCzjSoUkqFJAUCokkCSQIJAgQggQgNZOhGhoSTQDTrOstYBp0ayrKSA4cGHBVjTOFUaws4VTWjjJaxlo5rJUbzSwc1UaQKoiEBQQFBAkkCQFRVuhBFQ1AECGdBo0hG8Gs61rOsgSQHDjJFOEEQ4cCxRpAqyTjJaqNFlVRvNNYqEbqZqqjRYpoQoUUI1RRQEaoFFRSKggkEm6III1mIJIoBCASQIg4KUCISyVCWSDSZpqpCaEVISyqtSNVVk1aGms1Uo1RRVShqZqpQqhJSJKiosICGokEggkgFqAJJIqSQFAqhQQE1kgUEBprKKNVVlLRuqs1UpGqaxVSpG6qxVSkaVZqKsNQQEKgCgkEggIQAhIVJJAFIEkgSSBJICklRJIEkgSqQKqpAqqkCqqQKqpAqqkCQQJJCpJIJJAkkD//2Q==);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
